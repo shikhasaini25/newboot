@@ -1,0 +1,14 @@
+
+
+INSERT INTO SUBJECT (id, Name) VALUES (2,'Hindi');
+INSERT INTO SUBJECT (id, Name) VALUES (3,'English');
+INSERT INTO SUBJECT (id, Name) VALUES (4,'Maths');
+INSERT INTO SUBJECT (id, Name) VALUES (5,'GK');
+INSERT INTO SUBJECT (id, Name) VALUES (6,'EVS');
+INSERT INTO SUBJECT (id, Name) VALUES (7,'Chemistry');
+INSERT INTO SUBJECT (id, Name) VALUES (8,'Pysicse');
+INSERT INTO SUBJECT (id, Name) VALUES (9,'Biology');
+INSERT INTO SUBJECT (id, Name) VALUES (10,'JAVA');
+INSERT INTO SUBJECT (id, Name) VALUES (11,'SST');
+
+commit;

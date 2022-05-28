@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+   >    <!-- globel -->
+<bean id="ap" class="com.school.cityschool.Pojo" init-method ="init1" destroy-method ="destroy1">  <!-- single -->
+ 	<property name="name" value = "myname ap" />
+</bean>
+
+<bean id="ap1" class="com.school.cityschool.Pojo"> 
+ 	<property name="name" value = "myname ap1" /> 	 
+</bean>
+</beans> 
